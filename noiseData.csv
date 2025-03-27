@@ -54,8 +54,8 @@ CO2 plant still reattached, driving only Module 1, cable replaced with newer cab
 761,03/25/2025,WARM,Sine,11.0,1.2,11.5,9.495,9.908,8.176,8.221
 762,03/25/2025,WARM,Sine,11.5,1.2,11.5,11.140,11.582,8.499,8.588
 763,03/25/2025,WARM,Sine,12.0,1.2,11.5,10.686,11.053,6.108,6.225
-CO2 plant grounded to patch panel driving only Module 1 free cables no ferrites                        ,                                       ,                                             ,                        ,          ,          ,         ,,,,
-766,03/27/2025,WARM,Sine,0.0,1.2,11.5,2.824,2.732,2.866,2.824                                                                                                    , 03/27/2025                            , WARM                                        , Sine                   ,       0.0,       1.2,     11.5,,,,
+CO2 plant grounded to patch panel driving only Module 1 free cables no ferrites,,,,,,,,,
+766,03/27/2025,WARM,Sine,0.0,1.2,11.5,2.824,2.732,2.866,2.824
 767,03/27/2025,WARM,Sine,2.0,1.2,11.5,15.591,15.293,9.073,9.090
 768,03/27/2025,WARM,Sine,2.5,1.2,11.5,18.386,18.094,10.808,10.738
 769,03/27/2025,WARM,Sine,3.0,1.2,11.5,18.880,19.140,11.516,11.033
