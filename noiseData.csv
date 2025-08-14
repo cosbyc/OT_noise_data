@@ -856,3 +856,16 @@ turned off all other channels,pyrange[854:865],,,,,,,,,,,
 1544,08/13/2025,WARM,Sine,0.0,1.2,11.5,2.667,2.665,,,2.713,2.675
 1545,08/13/2025,WARM,Sine,2.0,1.2,11.5,4.623,3.852,,,6.869,6.800
 1546,08/13/2025,WARM,Sine,3.0,1.2,11.5,19.103,18.238,,,6.298,6.243
+1548,08/14/2025,WARM,Sine,0.0,1.2,11.5,2.685,2.640,2.590,2.678,2.704,2.654
+First run of 8_14_25; replaced pigtail on Mod 1; added ground wire to Mod 2,pyrange[859:870],,,,,,,,,,,
+First run of 8_14_25; replaced pigtail on Mod 1; added ground wire to Mod 2,pyrange[860:871],,,,,,,,,,,
+First run of 8_14_25; replaced pigtail on Mod 1; added ground wire to Mod 2,pyrange[861:872],,,,,,,,,,,
+First run of 8_14_25; replaced pigtail on Mod 1; added ground wire to Mod 2,pyrange[862:873],,,,,,,,,,,
+First run of 8_14_25; replaced pigtail on Mod 1; added ground wire to Mod 2,pyrange[863:874],,,,,,,,,,,
+1549,08/14/2025,WARM,Sine,0.0,1.2,11.5,2.676,2.650,2.708,2.555,2.734,2.636
+1550,08/14/2025,WARM,Sine,2.0,1.2,11.5,19.301,17.736,2.388,2.409,2.468,2.350
+Driving module 1 (cable C); turned off HV on module 0,pyrange[866:877],,,,,,,,,,,
+1552,08/14/2025,WARM,Sine,0.0,1.2,11.5,4.245,3.614,2.668,2.618,2.709,2.665
+Driving module 01; Amplitude scan (0.1V Vpp),pyrange[868:870],,,,,,,,,,,
+1555,08/14/2025,WARM,Sine,0.0,0.1,11.5,2.658,2.657,2.665,2.600,2.698,2.652
+1556,08/14/2025,WARM,Sine,2.0,0.1,11.5,5.822,5.707,2.654,2.613,2.714,2.654
