@@ -883,3 +883,6 @@ Replaced pigtail on Module 0; 1V vpp,pyrange[877:888],,,,,,,,,,,
 Removed jumpers on patch panel; grounds should be untethered to one another,pyrange[882:884],,,,,,,,,,,
 1565,08/14/2025,WARM,Sine,0.0,1.0,11.5,2.749,2.703,2.711,2.658,2.738,2.717
 1566,08/14/2025,WARM,Sine,2.0,1.0,11.5,19.656,10.809,2.609,2.598,2.601,2.595
+Driving module 1; added grounding jumper to Mod 0,pyrange[885:887],,,,,,,,,,,
+1567,08/14/2025,WARM,Sine,0.0,1.0,11.5,2.685,2.645,2.655,2.601,2.678,2.655
+1568,08/14/2025,WARM,Sine,2.0,1.0,11.5,2.767,2.677,2.715,2.719,2.722,2.699
