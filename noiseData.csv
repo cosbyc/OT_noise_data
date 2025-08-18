@@ -1132,3 +1132,16 @@ New box with Pico temp probes; 10 volt; driving Module 1.2,3  (cable B+C+D),pyra
 1788,08/16/2025,WARM,Sine,10.0,1.0,11.5,2.513,2.476,2.502,2.473,2.640,2.480
 1789,08/16/2025,WARM,Sine,11.0,1.0,11.5,2.446,2.382,2.467,2.357,2.625,2.381
 1790,08/16/2025,WARM,Sine,13.0,1.0,11.5,2.487,2.382,2.515,2.380,2.595,2.499
+calibration for new box,pyrange[],,,,,,,,,,,
+11,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.390,2.279,2.405,2.292,2.329,2.248
+testing scan script in v6-16 software; box cold; noise on cable B (need to verify identity),pyrange[2:4],,,,,,,,,,,
+12,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.388,2.274,2.397,2.295,2.335,2.244
+13,08/18/2025,WARM,Sine,2.0,1.0,11.5,2.389,2.281,2.407,2.293,2.333,2.247
+testing scan script in v6-16 software; box cold; noise on cable B (need to verify identity),pyrange[1139:1141],,,,,,,,,,,
+14,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.388,2.287,2.405,2.291,2.332,2.248
+15,08/18/2025,WARM,Sine,2.0,1.0,11.5,2.390,2.282,2.403,2.296,2.332,2.245
+testing scan script in v6-16 software; box cold; noise on cable B (need to verify identity),pyrange[1142:1144],,,,,,,,,,,
+16,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.436,2.324,2.452,2.341,2.378,2.286
+testing scan script in v6-16 software; box cold; noise on cable B (need to verify identity),pyrange[1144:1146],,,,,,,,,,,
+18,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.387,2.279,2.404,2.299,2.330,2.246
+20,08/18/2025,WARM,Sine,2.0,1.0,11.5,2.370,2.258,2.391,2.277,2.311,2.239

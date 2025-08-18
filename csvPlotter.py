@@ -14,7 +14,8 @@ parser.add_argument('-t', '--title', help="Plot title", default="", required=Fal
 args = parser.parse_args()
 
 
-setnames = ['Noise: 1.2 Vpp']
+setnames = ['Noise: 1.0 Vpp']
+#setnames = ['Noise: 3.0 Vpp']
 check = True
 line = True
 errorOn = False
@@ -49,7 +50,14 @@ row_ranges = [list(chain(range(635,648)))] # Driving only module 1 H2/H3, floati
 #row_ranges = [list(chain(range(279,307)))] # CO2 disconnected 
 #setnames = ['Plank floating']
 
-Hybrids = [2,3,4,5]
+Hybrids = [0,1,2,3,4,5]
+
+
+row_ranges = [list(chain(range(287,307))), range(1, 16)] # grounded plank vs non-grounded
+#setnames = ["Good contact with plank", "Poor contact with plank"]
+setnames = ["1 Vpp sine wave"]
+
+
 
 if ((args.first is not None) and (args.last is not None)):
     row_ranges = [list(chain(range(int(args.first),int(args.last))))]
@@ -66,7 +74,7 @@ def parse_csv(file_path, row_ranges):
     x_values_list = []
     y_values_lists = []
 
-    no_noise = [5,5,5,5]
+    no_noise = [5,5,5,5,5,5]
 
     
     for row_range in row_ranges:
@@ -77,7 +85,7 @@ def parse_csv(file_path, row_ranges):
         selected_rows = selected_rows.astype({selected_rows.columns[4]: float}).sort_values(by=selected_rows.columns[4])
 
         x_values = selected_rows.iloc[:, 4].to_numpy()
-        y_values = selected_rows.iloc[:, 7:11].astype(float).values.tolist()
+        y_values = selected_rows.iloc[:, 7:13].astype(float).values.tolist()
 
 
 
@@ -94,8 +102,8 @@ def parse_csv(file_path, row_ranges):
 def plot_noise(x_values_list, y_values_lists, x_label="X-axis", y_label="Y-axis", title="Scatter Plot",
                x_lim=None, y_lim=(0, 10), aspect_ratio=1.5, y_lines=None, markers=None):
     plt.style.use(hep.style.CMS)      
-    colors = ['blue', 'red', 'green', 'orange']
-    labels = ['Hybrid 2', 'Hybrid 3', 'Hybrid 4', 'Hybrid 5']
+    colors = ['blue', 'red', 'green', 'orange', 'yellow', 'purple']
+    labels = ['Hybrid 0', 'Hybrid 1','Hybrid 2', 'Hybrid 3', 'Hybrid 4', 'Hybrid 5']
     default_markers = ['o', '^', 'D']
     default_lines = ['solid', 'dotted', 'dashdot']
     
@@ -131,16 +139,16 @@ def plot_noise(x_values_list, y_values_lists, x_label="X-axis", y_label="Y-axis"
 
     if y_lines:
         for i in Hybrids:
-            ax.axhline(y=y_lines[i-2], color=colors[i-2], linestyle='dashed')
+            ax.axhline(y=y_lines[i], color=colors[i], linestyle='dashed')
     
     legend_elements = []
 
     marker_elements = [Line2D([0], [0], color='black', linestyle='None', label=f"{setnames[markers.index(marker)]}",
                               marker=marker, markersize=8, markerfacecolor='none' if markers.index(marker) % 2 == 1 else 'black') for marker in markers]
-    baseline_element = Line2D([0], [0], color='black', linestyle='dashed', lw=2, label='No noise')
-    dummy_elements = [Line2D([0], [0], linestyle='None', label='') for i in range(3-len(setnames))]
-    color_elements = [Line2D([0], [0], color=colors[i-2], lw=12, label=labels[i-2]) for i in Hybrids]
-    if len(Hybrids) < 4: color_elements.extend([Line2D([0], [0], linestyle='None', label='') for i in range(4-len(Hybrids))])
+    baseline_element = Line2D([0], [0], color='black', linestyle='dashed', lw=2, label='No noise injected')
+    dummy_elements = [Line2D([0], [0], linestyle='None', label='') for i in range(6-len(setnames))]
+    color_elements = [Line2D([0], [0], color=colors[i], lw=12, label=labels[i]) for i in Hybrids]
+    if len(Hybrids) < 6: color_elements.extend([Line2D([0], [0], linestyle='None', label='') for i in range(6-len(Hybrids))])
     
     legend_elements.extend(marker_elements)
     legend_elements.append(baseline_element)
@@ -153,7 +161,8 @@ def plot_noise(x_values_list, y_values_lists, x_label="X-axis", y_label="Y-axis"
     ax.set_ylabel(y_label)
     ax.set_title(title, size='x-small')
 
-    ax.set_ylim([0, biggestYVal*1.3])
+    #ax.set_ylim([0, biggestYVal*1.3])
+    ax.set_ylim([0, 6])
     ax.set_xlim([smallestXVal-(biggestXVal*0.1), biggestXVal*1.1])
 
 
