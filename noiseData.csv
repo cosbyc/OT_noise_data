@@ -1145,3 +1145,24 @@ testing scan script in v6-16 software; box cold; noise on cable B (need to verif
 testing scan script in v6-16 software; box cold; noise on cable B (need to verify identity),pyrange[1144:1146],,,,,,,,,,,
 18,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.387,2.279,2.404,2.299,2.330,2.246
 20,08/18/2025,WARM,Sine,2.0,1.0,11.5,2.370,2.258,2.391,2.277,2.311,2.239
+scripts repaired; final test to supress stderr,pyrange[1147:1149],,,,,,,,,,,
+scripts repaired; final test to supress stderr,pyrange[1148:1150],,,,,,,,,,,
+scripts repaired; final test to supress stderr,pyrange[1149:1151],,,,,,,,,,,
+first cold full scan in new workspace; driving Cable B (OG 0; module identity to be confirmed),pyrange[1150:1161],,,,,,,,,,,
+23,08/18/2025,WARM,Sine,0.0,1.0,11.5,1.489,1.387,1.266,1.209,1.526,1.428
+first cold full scan in new workspace; driving Cable B (OG 0; module identity to be confirmed),pyrange[1152:1163],,,,,,,,,,,
+first cold full scan in new workspace; driving Cable B (OG 0; module identity to be confirmed),pyrange[1153:1164],,,,,,,,,,,
+first cold full scan in new workspace; driving Cable B (OG 0; module identity to be confirmed),pyrange[1154:1165],,,,,,,,,,,
+first cold full scan in new workspace; driving Cable B (OG 0; module identity to be confirmed),pyrange[1155:1166],,,,,,,,,,,
+first cold full scan in new workspace; driving Cable B (OG 0; module identity to be confirmed),pyrange[1156:1167],,,,,,,,,,,
+27,08/18/2025,WARM,Sine,0.0,1.0,11.5,2.406,2.295,2.329,2.246,2.389,2.281
+28,08/18/2025,WARM,Sine,2.0,1.0,11.5,2.409,2.299,2.333,2.251,2.393,2.284
+29,08/18/2025,WARM,Sine,3.0,1.0,11.5,2.425,2.300,2.334,2.254,2.404,2.286
+30,08/18/2025,WARM,Sine,4.0,1.0,11.5,2.486,2.340,2.384,2.298,2.445,2.338
+31,08/18/2025,WARM,Sine,6.0,1.0,11.5,2.442,2.307,2.342,2.254,2.411,2.297
+34,08/18/2025,WARM,Sine,7.0,1.0,11.5,2.433,2.301,2.339,2.252,2.404,2.290
+35,08/18/2025,WARM,Sine,8.0,1.0,11.5,2.557,2.327,2.376,2.273,2.453,2.347
+36,08/18/2025,WARM,Sine,9.0,1.0,11.5,2.474,2.312,2.348,2.256,2.423,2.309
+37,08/18/2025,WARM,Sine,10.0,1.0,11.5,2.636,2.391,2.425,2.322,2.511,2.401
+38,08/18/2025,WARM,Sine,11.0,1.0,11.5,2.530,2.330,2.343,2.257,2.417,2.310
+39,08/18/2025,WARM,Sine,13.0,1.0,11.5,2.508,2.325,2.343,2.257,2.411,2.304
