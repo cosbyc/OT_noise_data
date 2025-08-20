@@ -1316,3 +1316,34 @@ driving Cables B and C (module 00 and 01); thermocouples read warm,pyrange[1306:
 199,08/20/2025,WARM,Sine,10.0,1.0,11.5,2.475,2.317,2.431,2.294,2.409,2.324
 200,08/20/2025,WARM,Sine,11.0,1.0,11.5,2.463,2.315,2.439,2.295,2.379,2.310
 201,08/20/2025,WARM,Sine,13.0,1.0,11.5,2.458,2.312,2.414,2.286,2.383,2.307
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1318:1329],,,,,,,,,,,
+202,08/20/2025,WARM,Sine,0.0,1.0,11.5,2.438,2.310,2.370,2.266,2.380,2.311
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1320:1331],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1321:1332],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1322:1333],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1323:1334],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1324:1335],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1325:1336],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1326:1337],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1327:1338],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1328:1339],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1329:1340],,,,,,,,,,,
+204,08/20/2025,WARM,Sine,0.0,1.0,11.5,2.424,2.298,2.364,2.260,2.368,2.299
+205,08/20/2025,WARM,Sine,2.0,1.0,11.5,2.439,2.310,2.379,2.278,2.381,2.310
+206,08/20/2025,WARM,Sine,3.0,1.0,11.5,2.441,2.309,2.384,2.281,2.380,2.311
+207,08/20/2025,WARM,Sine,4.0,1.0,11.5,2.440,2.306,2.386,2.284,2.383,2.307
+208,08/20/2025,WARM,Sine,6.0,1.0,11.5,2.443,2.307,2.396,2.283,2.388,2.308
+209,08/20/2025,WARM,Sine,7.0,1.0,11.5,2.450,2.307,2.401,2.282,2.388,2.312
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1336:1347],,,,,,,,,,,
+driving Cables C and D (module 01 and 02); thermocouples read warm,pyrange[1337:1348],,,,,,,,,,,
+211,08/20/2025,WARM,Sine,0.0,1.0,11.5,2.420,2.302,2.363,2.261,2.374,2.308
+212,08/20/2025,WARM,Sine,2.0,1.0,11.5,2.484,2.301,2.385,2.270,2.373,2.306
+213,08/20/2025,WARM,Sine,3.0,1.0,11.5,2.508,2.309,2.376,2.276,2.379,2.306
+214,08/20/2025,WARM,Sine,4.0,1.0,11.5,2.513,2.312,2.387,2.282,2.384,2.309
+215,08/20/2025,WARM,Sine,6.0,1.0,11.5,2.519,2.317,2.397,2.282,2.390,2.311
+216,08/20/2025,WARM,Sine,7.0,1.0,11.5,2.532,2.317,2.404,2.283,2.391,2.314
+217,08/20/2025,WARM,Sine,8.0,1.0,11.5,2.639,2.367,2.428,2.302,2.408,2.325
+218,08/20/2025,WARM,Sine,9.0,1.0,11.5,2.562,2.343,2.409,2.287,2.400,2.322
+219,08/20/2025,WARM,Sine,10.0,1.0,11.5,2.642,2.377,2.477,2.330,2.433,2.341
+220,08/20/2025,WARM,Sine,11.0,1.0,11.5,2.552,2.331,2.464,2.317,2.424,2.336
+221,08/20/2025,WARM,Sine,13.0,1.0,11.5,2.544,2.324,2.440,2.298,2.402,2.323
